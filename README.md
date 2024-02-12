@@ -1,4 +1,4 @@
-Escalação de jogadores - JS
+<h1>Escalação de jogadores - JS</h1>
 
 ## Descrição do projeto
 
