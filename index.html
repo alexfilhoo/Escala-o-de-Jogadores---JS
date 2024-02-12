@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escalação do Time</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <h1>Escalação do Time</h1>
+    <div class="escalando">
+      <div class="adicionar">
+        <div class="headEntra">
+          <img src="/img/camisaEntra.png" alt="">
+          <h2>Escalar Jogador</h2>
+        </div>
+          <label for="position">Posição:</label>
+          <input type="text" id="position" placeholder="Ex.: Atacante, Meia, Zagueiro"/>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" placeholder="Ex.: Maria, José, João"/>
+          <label for="number">Número:</label>
+          <input type="number" id="number" placeholder="Ex.: 1, 5, 10"/>
+          <button onclick="addPlayer()">Escalar</button>
+        </p>
+      </div>
+      <div class="remover">
+        <div class="headSai">
+          <img src="/img/camisaSai.png" alt="">
+          <h2>Remover Jogador</h2>
+        </div>
+          <label for="numberToRemove">Número:</label>
+          <input type="number" id="numberToRemove" placeholder="Ex.: 1, 5, 10"/>
+          <button onclick="removePlayer()">Remover</button>
+      </div>
+    </div>
+    <h2>Time escalado:</h2>
+    <ul id="team-list"></ul>
+  </body>
+</html>

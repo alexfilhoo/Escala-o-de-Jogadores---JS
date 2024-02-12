@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+#team-list {
+  list-style-type: none;
+  margin: 0 auto;
+  background-color: #f9f2e7;
+  border-radius: 2em;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  width: 400px;
+}
+
+.escalando {
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+  padding: 1.5em 6em;
+}
+
+.adicionar {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 2em;
+  border-radius: 2em;
+  color: white;
+  background-color: #429867;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.remover {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 2em;
+  border-radius: 2em;
+  color: white;
+  background-color: #e02131e8;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+input {
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 1em;
+  border: none;
+}
+
+#position::placeholder {
+  text-align: center;
+}
+
+#name::placeholder {
+  text-align: center;
+}
+#number::placeholder {
+  text-align: center;
+}
+#numberToRemove::placeholder {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 1em;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #fab243;
+  color: white;
+}
